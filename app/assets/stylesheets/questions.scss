@@ -1,0 +1,42 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$yellow: #fffdc9;
+$grey: #eaeaea;
+
+body{
+  font-family:Optima;
+}
+
+.row{
+  background:$yellow;
+  width:800px;
+  margin:5px;
+  height:100px;
+  display:flex;
+  flex-direction: row;
+}
+
+.border{
+  width:6px;
+  background:$grey;
+  height:100px;
+}
+
+a{
+ font-size: 26px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.text{
+  padding: 10px;
+}
